@@ -34,7 +34,7 @@ CTYPE html>
 		.attr("width", z)
 		.attr("height", z)
 		//.style("fill", function(d) { return d3.hsl(d % x / x * 360, 1, Math.floor(d / x) / y); })
-		.style("fill", function(d){return "url('https://www.warwick.co.nz/site/warwick/images//items/102006"+d%x+".jpg)"})
+		.style("fill", function(d){return "url('https://www.warwick.co.nz/site/warwick/images//items/102006"+d%x+".jpg')"})
 		.on("mouseover", mouseover);
 
 		function translate(d) {
